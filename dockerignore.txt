@@ -1,0 +1,32 @@
+# Ignore everything except what we need
+*
+
+# Include only necessary files
+!recommender_optimized.py
+!requirements.txt
+!Dockerfile.optimized
+!railway.json
+!nixpacks.toml
+
+# Exclude
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+.venv/
+venv/
+ENV/
+.git/
+.gitignore
+README.md
+*.md
+.DS_Store
+*.log
